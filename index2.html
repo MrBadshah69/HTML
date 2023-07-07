@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration form</title>
+    <link rel="stylesheet" href="index2.css" />
+    <style type="text/css">
+      label {
+        width: 150px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <!-- FN -->
+      <label for="1">FIRST NAME</label>
+      <input type="text" id="1" /><label
+        ><small> (max 30 characters and A-Z)</small>
+      </label>
+      <br />
+      <br />
+      <!-- LN -->
+      <label for="2">LAST NAME</label>
+      <input type="text" id="2" /><label
+        ><small> (max 30 characters and A-Z) </small></label
+      >
+      <br />
+      <br />
+      <!-- DOB -->
+      <label for="3">DATE OF BIRTH</label>
+      <input type="date" />
+      <br />
+      <br />
+      <!-- EMI -->
+      <label for="4">EMAIL ID</label>
+      <input type="email" id="4" />
+      <br />
+      <br />
+      <!-- MN -->
+      <label for="5">MOBILE NUMBER</label>
+      <input type="tel" /><label><small> (10 digit number)</small></label>
+      <br />
+      <br />
+      <!-- GENDER -->
+      <label for="6">GENDER</label>
+      <input type="radio" id="6" name="GENDER" /><label>Male</label>
+      <input type="radio" id="6" name="GENDER" /><label>Female</label>
+      <br />
+      <br />
+      <!-- ADD -->
+      <label for="7">ADDRESS</label>
+      <textarea name="ADDRESS" id="7" cols="20" rows="1"></textarea>
+      <br />
+      <br />
+      <!-- CITY -->
+      <label for="8">CITY</label>
+      <select id="8" name="CITY">
+        <option selected>Karachi</option>
+        <option>Lahore</option>
+        <option>Islamabad</option>
+        <option>Multan</option>
+        <option>Faisalabad</option>
+        <option>Apna Ghar</option></select
+      ><label> <small> (max 30 characters a-z and A-Z) </small> </label>
+      <br />
+      <br />
+      <!-- PC -->
+      <label for="9">PIN CODE</label>
+      <input type="text" id="9" name="PIN CODE" /><label>
+        (6 digit number)
+      </label>
+      <br />
+      <br />
+      <!-- ST -->
+      <label for="10">STATE</label>
+      <input type="text" id="10" name="STATE" /><label>
+        (max 30 charactersa-z and A-Z)
+      </label>
+      <br />
+      <br />
+      <!-- CUN -->
+      <label for="11">COUNTRY</label>
+      <select name="COUNTRY" id="11">
+        <option selected>Paksitan</option>
+        <option>India</option>
+        <option>Australia</option>
+        <option>Germany</option>
+      </select>
+      <br />
+      <br />
+      <!-- HOBBIES -->
+      <label for="12">HOBBIES</label>
+      <input id="12" type="radio" /><label>Drawing</label
+      ><input id="12" type="radio" /><label>Singing</label
+      ><input id="12" type="radio" /><label>Dancing</label
+      ><input id="12" type="radio" /><label>Sketching</label
+      ><input id="12" type="radio" /><label>Others</label>
+      <input type="text" />
+      <br />
+      <br />
+      <!-- QF -->
+
+      <table >
+        <label for="13">QUALIFICATION</label>
+        <thead>
+          <tr>
+            <th>SI?.No Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 Class X</td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>2 classs XII</td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>3 Graduation</td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>4 Masters</td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+            <td><input type="text" /></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br />
+      <br />
+      <!-- CAF -->
+      <label for="14"> COURSES APPLIED FOR</label>
+      <input type="radio" /><label>BCA</label> 
+      <input type="radio" /><label>B.Sc</label>
+      <input type="radio" /><label>B.Com</label>
+      <input type="radio" /><label>B.A</label>
+      <br />
+      <br />
+      <!-- SUB reset -->
+      <pre>                       <input type="submit"/>      <input type="reset" /></pre>
+    </form>
+  </body>
+</html>

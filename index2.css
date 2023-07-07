@@ -1,0 +1,19 @@
+body {
+    background-color:violet;
+}
+
+form {
+    margin-left: 400px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: small;
+}
+
+input {
+    background-color: whitesmoke;
+}
+
+textarea {
+    background-color: whitesmoke;
+}
